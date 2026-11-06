@@ -1,1 +1,24 @@
-/local-file-explorer.exe
+# Go build output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Coverage and profiling output
+coverage.out
+*.coverprofile
+
+# Editors and IDEs
+.idea/
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db

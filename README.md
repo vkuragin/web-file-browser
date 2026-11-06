@@ -1,6 +1,6 @@
 # File Explorer
 
-A read-only local file browser written in Go. It starts at the Windows system drive root, includes hidden and system entries, supports folder navigation, and shows selected item properties. The server is restricted to the system drive and listens on localhost only.
+A read-only local file browser written in Go. It starts with a list of available drives, includes hidden and system entries, supports folder navigation, and shows selected item properties. The server allows navigation within discovered drives and listens on localhost only.
 
 ## Run on Windows
 
